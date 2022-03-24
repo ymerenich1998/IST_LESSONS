@@ -1,0 +1,34 @@
+html{
+  font-size: 16px
+}
+
+ul{
+  list-style-type: none;
+  padding-inline-start: 0;
+  list-style-position: inside;
+}
+
+.bag{
+  padding: 10px 20px;
+  list-style-image: url("1.gif");
+  background-color: lightblue;
+}
+
+
+.checked{
+  padding: 10px 20px;
+  list-style-image: url("1.gif");
+  background-color: lightgray;
+  text-decoration: line-through;
+}
+
+ol{
+  list-style: none;
+  counter-reset: number;
+}
+
+ol li::before{
+  content: counters( number, ".") ". ";
+  counter-increment: number;
+  font-weight: bold;
+}
