@@ -22,7 +22,7 @@ ul{
   text-decoration: line-through;
 }
 
-ol{
+/* ol{
   list-style: none;
   counter-reset: number;
 }
@@ -31,4 +31,4 @@ ol li::before{
   content: counters( number, ".") ". ";
   counter-increment: number;
   font-weight: bold;
-}
+} */
