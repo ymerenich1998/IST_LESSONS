@@ -1,0 +1,33 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  background-color: #efefef;;
+  padding: 50px 0px;
+}
+
+.image{
+  display: block;
+  height: 800px;
+  background-image: url("https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_843408508_swjtuw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15% 50%;
+  background-attachment: fixed;
+}
+
+main{
+  max-width: 1024px;
+  margin: auto;
+}
+
+section{
+  min-height: 500px;
+  background-color: white;
+}
