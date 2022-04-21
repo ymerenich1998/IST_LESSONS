@@ -1,0 +1,82 @@
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.test, .box, .block{
+  height: 200px;
+  background: lightgray;
+  margin: 20px 0px;
+}
+
+.box{
+  background-color: gray;
+}
+
+.test:first-child{
+  background-color: orange;
+}
+
+.test:last-child{
+  background-color: green;
+}
+/*
+p:first-of-type{
+  background-color: black;
+  color: white;
+} */
+
+/* p:last-of-type{
+  background-color: black;
+  color: white;
+} */
+
+.test:only-child{
+  background-color: red;
+}
+
+/* p:only-of-type{
+  background-color: red;
+} */
+
+/*  */
+.block:nth-of-type(3n+1){
+  background-color: #e53935;
+}
+
+.block:nth-of-type(3n+2){
+  background-color: #fdd835;
+}
+
+.block:nth-of-type(3n){
+  background-color: #ff7043;
+}
+
+ /* Index 2 */
+.container{
+  max-width: 1260px;
+  margin: auto;
+  padding: 75px 0px;
+}
+
+.card{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background: lightgray;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.card:nth-child(4n){
+  margin-right: 0px;
+}
