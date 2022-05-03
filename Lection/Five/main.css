@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: lightgray;
+}
+
+main{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 800px;
+}
+
+.flex__bg{
+    background-color: aqua;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+    text-align: center;
+    padding: 30px;
+    font-size: 64px;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
